@@ -1,4 +1,4 @@
-from joblib import dump, load
+from joblib import load
 import pandas as pd
 import numpy as np
 

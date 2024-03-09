@@ -21,7 +21,7 @@ def app_sidebar():
         input_features = {'Age': Age,
                           'KM': KM,
                           'HP': HP,
-                          'MetcColor': MetColor,
+                          'MetColor': MetColor,
                           'Automatic': Automatic,
                           'CC': CC,
                           'Doors': Doors,

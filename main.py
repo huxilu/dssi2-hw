@@ -44,7 +44,7 @@ def app_body():
     st.markdown(title, unsafe_allow_html=True)
     default_msg = '**System assessment says:** {}'
     if st.session_state['input_features']:
-        assessment = get_prediction(st.session_state['input_features'])
+        assessment = get_prediction(pd.DataFrame(st.session_state['input_features']))
         st.success(default_msg.format(f'{assessment}'))
     return None
 

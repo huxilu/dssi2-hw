@@ -1,3 +1,4 @@
+import joblib
 import streamlit as st
 from inference import get_prediction
 

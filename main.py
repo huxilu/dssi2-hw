@@ -1,5 +1,5 @@
 import streamlit as st
-from .inference import get_prediction
+from inference import get_prediction
 
 #Initialise session state variable
 if 'input_features' not in st.session_state:
